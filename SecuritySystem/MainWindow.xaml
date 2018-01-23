@@ -1,0 +1,20 @@
+﻿<Window x:Class="SecuritySystem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SecuritySystem"
+        mc:Ignorable="d"
+        Title="MainWindow" Name="mainWindow" Height="380" Width="525">
+    <Grid>
+        <ListBox x:Name="associateListBox" SelectionMode="Single" HorizontalAlignment="Left" Height="249" Margin="10,10,0,0" VerticalAlignment="Top" Width="497"/>
+        <Button x:Name="addButton" Content="Добавить" HorizontalAlignment="Left" Margin="432,264,0,0" VerticalAlignment="Top" Width="75" Click="AddButtonClick"/>
+        <Button x:Name="deleteButton" Content="Удалить" HorizontalAlignment="Left" Margin="432,289,0,0" VerticalAlignment="Top" Width="75" Click="DeleteButtonClick"/>
+        <TextBox x:Name="surnameTextBox" HorizontalAlignment="Left" Height="20" Margin="10,264,0,0" TextWrapping="Wrap" Text="Фамилия" VerticalAlignment="Top" Width="90"/>
+        <TextBox x:Name="nameTextBox" HorizontalAlignment="Left" Height="20" Margin="105,264,0,0" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top" Width="97"/>
+        <TextBox x:Name="lastnameTextBox" HorizontalAlignment="Left" Height="20" Margin="207,264,0,0" TextWrapping="Wrap" Text="Отчество" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="positionTextBox" HorizontalAlignment="Left" Height="20" Margin="307,264,0,0" TextWrapping="Wrap" Text="Должность" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="attendanceButton" Content="Посещаемость" HorizontalAlignment="Left" Margin="403,314,0,0" VerticalAlignment="Top" Width="104" Click="AttendanceButtonClick"/>
+
+    </Grid>
+</Window>
