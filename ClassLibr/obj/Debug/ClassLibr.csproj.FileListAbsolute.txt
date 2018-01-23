@@ -3,3 +3,9 @@ c:\users\павлове\documents\visual studio 2017\Projects\SecuritySystem\Cla
 c:\users\павлове\documents\visual studio 2017\Projects\SecuritySystem\ClassLibr\obj\Debug\ClassLibr.csprojResolveAssemblyReference.cache
 c:\users\павлове\documents\visual studio 2017\Projects\SecuritySystem\ClassLibr\obj\Debug\ClassLibr.dll
 c:\users\павлове\documents\visual studio 2017\Projects\SecuritySystem\ClassLibr\obj\Debug\ClassLibr.pdb
+C:\Users\djoni\Desktop\Security\ClassLibr\bin\Debug\ClassLibr.dll
+C:\Users\djoni\Desktop\Security\ClassLibr\bin\Debug\ClassLibr.pdb
+C:\Users\djoni\Desktop\Security\ClassLibr\obj\Debug\ClassLibr.csprojResolveAssemblyReference.cache
+C:\Users\djoni\Desktop\Security\ClassLibr\obj\Debug\ClassLibr.csproj.CoreCompileInputs.cache
+C:\Users\djoni\Desktop\Security\ClassLibr\obj\Debug\ClassLibr.dll
+C:\Users\djoni\Desktop\Security\ClassLibr\obj\Debug\ClassLibr.pdb

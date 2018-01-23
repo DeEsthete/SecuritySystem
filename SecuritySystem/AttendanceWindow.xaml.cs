@@ -30,6 +30,8 @@ namespace SecuritySystem
         {
             InitializeComponent();
 
+            mainWindow = window;
+
             path = Directory.GetCurrentDirectory() + "/workerPresense.txt";
             associates = associate;
             attendances = new List<Attendance>();
@@ -45,13 +47,13 @@ namespace SecuritySystem
 
         private void AttendanceWindowClosed(object sender, EventArgs e)
         {
-            int rowIndex = 0;
-            int columnIndex = 5;
-            for (int i = 0; i < attendances.Count; i++)
-            {
-                rowIndex = i+1;
-                attendances[i].Presence = (bool)((DataRowView)attendanceDataGrid.Items[rowIndex]).Row[columnIndex];
-            }
+            //int rowIndex = 0;
+            //int columnIndex = 5;
+            //for (int i = 0; i < attendances.Count; i++)
+            //{
+            //    rowIndex = i+1;
+            //    attendances[i].Presence = (bool)((DataRowView)attendanceDataGrid.Items[rowIndex]).Row[columnIndex];
+            //}
             WriteBinaryFile();
         }
 

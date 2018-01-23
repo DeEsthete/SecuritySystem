@@ -16,3 +16,22 @@ c:\users\павлове\documents\visual studio 2017\Projects\SecuritySystem\Sec
 c:\users\павлове\documents\visual studio 2017\Projects\SecuritySystem\SecuritySystem\obj\Debug\SecuritySystem.pdb
 c:\users\павлове\documents\visual studio 2017\Projects\SecuritySystem\SecuritySystem\obj\Debug\AttendanceWindow.g.cs
 c:\users\павлове\documents\visual studio 2017\Projects\SecuritySystem\SecuritySystem\obj\Debug\AttendanceWindow.baml
+C:\Users\djoni\Desktop\Security\SecuritySystem\bin\Debug\SecuritySystem.exe.config
+C:\Users\djoni\Desktop\Security\SecuritySystem\bin\Debug\SecuritySystem.exe
+C:\Users\djoni\Desktop\Security\SecuritySystem\bin\Debug\SecuritySystem.pdb
+C:\Users\djoni\Desktop\Security\SecuritySystem\bin\Debug\ClassLibr.dll
+C:\Users\djoni\Desktop\Security\SecuritySystem\bin\Debug\ClassLibr.pdb
+C:\Users\djoni\Desktop\Security\SecuritySystem\obj\Debug\SecuritySystem.csprojResolveAssemblyReference.cache
+C:\Users\djoni\Desktop\Security\SecuritySystem\obj\Debug\AttendanceWindow.g.cs
+C:\Users\djoni\Desktop\Security\SecuritySystem\obj\Debug\MainWindow.g.cs
+C:\Users\djoni\Desktop\Security\SecuritySystem\obj\Debug\App.g.cs
+C:\Users\djoni\Desktop\Security\SecuritySystem\obj\Debug\SecuritySystem_MarkupCompile.cache
+C:\Users\djoni\Desktop\Security\SecuritySystem\obj\Debug\SecuritySystem_MarkupCompile.lref
+C:\Users\djoni\Desktop\Security\SecuritySystem\obj\Debug\AttendanceWindow.baml
+C:\Users\djoni\Desktop\Security\SecuritySystem\obj\Debug\MainWindow.baml
+C:\Users\djoni\Desktop\Security\SecuritySystem\obj\Debug\SecuritySystem.g.resources
+C:\Users\djoni\Desktop\Security\SecuritySystem\obj\Debug\SecuritySystem.Properties.Resources.resources
+C:\Users\djoni\Desktop\Security\SecuritySystem\obj\Debug\SecuritySystem.csproj.GenerateResource.Cache
+C:\Users\djoni\Desktop\Security\SecuritySystem\obj\Debug\SecuritySystem.csproj.CoreCompileInputs.cache
+C:\Users\djoni\Desktop\Security\SecuritySystem\obj\Debug\SecuritySystem.exe
+C:\Users\djoni\Desktop\Security\SecuritySystem\obj\Debug\SecuritySystem.pdb
