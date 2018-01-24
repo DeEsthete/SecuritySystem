@@ -35,15 +35,25 @@ namespace SecuritySystem
             path = Directory.GetCurrentDirectory() + "/workerPresense.txt";
             associates = associate;
             attendances = new List<Attendance>();
-            foreach (var i in associates)
-            {
-                Attendance temp = new Attendance(i.Name, i.Surname, i.Lastname, i.Position, DateTime.Now, false);
-                attendances.Add(temp);
-            }
+             ReadBinaryFile();
+
+            //foreach (var i in associates)
+            //{
+            //    Attendance temp = new Attendance(i.Name, i.Surname, i.Lastname, i.Position, DateTime.Now, false);
+            //    attendances.Add(temp);
+            //}
             attendanceDataGrid.ItemsSource = attendances;
-            
+
+            foreach (Attendance c in attendances)
+            {
+                Binding binding = new Binding();
+                binding.Path = new PropertyPath(c.Presence.ToString()); 
+                checkBox.Binding = binding;
+            }
+
             attendanceWindow.Closed += AttendanceWindowClosed;
         }
+
 
         private void AttendanceWindowClosed(object sender, EventArgs e)
         {
@@ -90,9 +100,15 @@ namespace SecuritySystem
                     temp.Lastname = reader.ReadString();
                     temp.Position = reader.ReadString();
                     temp.Date = DateTime.Parse(reader.ReadString());
+                    temp.Presence = reader.ReadBoolean();
                     attendances.Add(temp);
+                    
+                    
+                        
                 }
             }
+            
+            
         }
         #endregion
     }

@@ -9,3 +9,8 @@ C:\Users\djoni\Desktop\Security\ClassLibr\obj\Debug\ClassLibr.csprojResolveAssem
 C:\Users\djoni\Desktop\Security\ClassLibr\obj\Debug\ClassLibr.csproj.CoreCompileInputs.cache
 C:\Users\djoni\Desktop\Security\ClassLibr\obj\Debug\ClassLibr.dll
 C:\Users\djoni\Desktop\Security\ClassLibr\obj\Debug\ClassLibr.pdb
+C:\Users\СикировТ\Desktop\SecuritySystem-master\ClassLibr\bin\Debug\ClassLibr.dll
+C:\Users\СикировТ\Desktop\SecuritySystem-master\ClassLibr\bin\Debug\ClassLibr.pdb
+C:\Users\СикировТ\Desktop\SecuritySystem-master\ClassLibr\obj\Debug\ClassLibr.csprojResolveAssemblyReference.cache
+C:\Users\СикировТ\Desktop\SecuritySystem-master\ClassLibr\obj\Debug\ClassLibr.dll
+C:\Users\СикировТ\Desktop\SecuritySystem-master\ClassLibr\obj\Debug\ClassLibr.pdb

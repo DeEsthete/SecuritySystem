@@ -6,5 +6,9 @@
         xmlns:local="clr-namespace:SecuritySystem"
         mc:Ignorable="d"
         Title="AttendanceWindow" Name="attendanceWindow" Height="350" Width="525">
-    <DataGrid x:Name="attendanceDataGrid" Margin="0,0,0,35"/>
+    <DataGrid x:Name="attendanceDataGrid" Margin="0,0,0,35">
+        <DataGrid.Columns>
+         
+        </DataGrid.Columns>
+    </DataGrid>
 </Window>

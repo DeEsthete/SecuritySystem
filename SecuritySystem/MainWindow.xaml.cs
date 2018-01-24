@@ -79,13 +79,13 @@ namespace SecuritySystem
 
         private void AddButtonClick(object sender, RoutedEventArgs e)
         {
-            if (surnameTextBox.Text != "Фамилия" && surnameTextBox.Text != null)
+            if (surnameTextBox.Text != "Фамилия" && surnameTextBox.Text != "")
             {
-                if (nameTextBox.Text != "Имя" && nameTextBox.Text != null)
+                if (nameTextBox.Text != "Имя" && nameTextBox.Text != "")
                 {
-                    if (lastnameTextBox.Text != "Отчество" && lastnameTextBox != null)
+                    if (lastnameTextBox.Text != "Отчество" && lastnameTextBox.Text != "")
                     {
-                        if (positionTextBox.Text != "Должность" && positionTextBox != null)
+                        if (positionTextBox.Text != "Должность" && positionTextBox.Text != "")
                         {
                             Associate temp = new Associate(nameTextBox.Text, surnameTextBox.Text, lastnameTextBox.Text, positionTextBox.Text);
                             associates.Add(temp);
